@@ -1,0 +1,41 @@
+change directory ------------------------------------------------------------------------------------------------------> cd
+igo back to the parent directory --------------------------------------------------------------------------------------> cd .. 
+go back to your home directory ----------------------------------------------------------------------------------------> cd ~
+go back further -------------------------------------------------------------------------------------------------------> cd ../..
+To see a list of all subdirectories and files -------------------------------------------------------------------------> ls
+displays teh details of the files -------------------------------------------------------------------------------------> ls -l
+shows hidden files and directories ------------------------------------------------------------------------------------> ls -a 
+create a new folder(diretory) -----------------------------------------------------------------------------------------> mkdir
+create a new file -----------------------------------------------------------------------------------------------------> touch
+move file/folder ------------------------------------------------------------------------------------------------------> mv <file> <destination>
+search for a specific phrase in file/lines ----------------------------------------------------------------------------> grep 'word' <filename>
+you can force grep to ignore wor case perform a case-insensitive search for the word 'bar' ----------------------------> grep -i 'bar' <filename>
+look for all files in the current directory and in all of its subdirectories ------------------------------------------> grep -R 'httpd'
+search and display the total number of time that the string 'word' appears in a file ----------------------------------> grep -c 'word' <filename>
+we can use fgrep/grep to find all the lines of a line that contain a particular word ----------------------------------> fgrep 'word' <filename>
+hence pass the "-w" option with the grep/fgrep command to get only lines where 'word' is included as a whole word -----> fgrep -w 'word' <filename>
+search files and directories ------------------------------------------------------------------------------------------> find
+show last 50 used commands --------------------------------------------------------------------------------------------> history
+clear the terminal screen ---------------------------------------------------------------------------------------------> clear
+create and unpack compressed archives ---------------------------------------------------------------------------------> tar
+compressed tar archive ------------------------------------------------------------------------------------------------> tar -zcfv archivo.tar.gz <filename>
+--- z: algoritmo Gzip
+--- c: comprimir
+--- v: visualiar en pantalla los ficheros que va tratando
+--- f: para indicar el nombre del fichero comrpimido
+descompressed tar.gz --------------------------------------------------------------------------------------------------> tar -zxvf archivo.tar.gz
+compressed an file/directory with 7z ----------------------------------------------------------------------------------> 7z a <compressed-archive.7z> <filename.txt>
+compressed an file/directory with zip ---------------------------------------------------------------------------------> 7za -tzip <compressed-archive.zip> <filename.txt>
+download files from the internet --------------------------------------------------------------------------------------> wget
+get file size ---------------------------------------------------------------------------------------------------------> du
+copy file -------------------------------------------------------------------------------------------------------------> cp <file> <destine-directory>
+copy dir and subdir ---------------------------------------------------------------------------------------------------> cp -R <dir> <dir>
+delete file -----------------------------------------------------------------------------------------------------------> rm <file>
+delete dir ------------------------------------------------------------------------------------------------------------> rm -rf <dir>
+display file contents -------------------------------------------------------------------------------------------------> cat <file>
+create and save a new file by merging multiple files ------------------------------------------------------------------> cat <file> <file> > <mergedfile> 
+print current working dir ---------------------------------------------------------------------------------------------> pwd
+change file timestamp -------------------------------------------------------------------------------------------------> touch <file>
+display current user --------------------------------------------------------------------------------------------------> whoami
+
+
