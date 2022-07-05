@@ -1,0 +1,11 @@
+ESC -----------> To go into (normal mode)
+i -------------> Write into file (insert mode)
+:wq!-----------> Save and exit
+:q! -----------> Exit without saving the file
+vimtutorial ---> open tutorial by command vimtutor into the terminal
+
+always press ESC and type the following command
+
+:q ------------> Exiting vim
+:q! -----------> Exit from vim without saving changes
+:wq or x! -----> Exit and saves the file 
